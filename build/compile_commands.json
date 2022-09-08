@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/kristoffer/Documents/Programmering/Prosjekt/Library/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9    -g   -o CMakeFiles/Library.dir/src/main.cpp.o -c /home/kristoffer/Documents/Programmering/Prosjekt/Library/src/main.cpp",
+  "file": "/home/kristoffer/Documents/Programmering/Prosjekt/Library/src/main.cpp"
+}
+]
