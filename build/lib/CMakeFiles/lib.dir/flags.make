@@ -6,5 +6,5 @@ CXX_FLAGS = -g
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/kristoffer/Documents/Programmering/Prosjekt/Library/lib 
+CXX_INCLUDES = 
 

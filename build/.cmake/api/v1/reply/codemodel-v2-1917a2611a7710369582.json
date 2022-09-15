@@ -6,6 +6,10 @@
 			[
 				{
 					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.0.0"
@@ -44,6 +48,20 @@
 						27,
 						28
 					]
+				},
+				{
+					"build" : "lib",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "lib",
+					"targetIndexes" : 
+					[
+						29
+					]
 				}
 			],
 			"name" : "Debug",
@@ -52,7 +70,8 @@
 				{
 					"directoryIndexes" : 
 					[
-						0
+						0,
+						1
 					],
 					"name" : "Library",
 					"targetIndexes" : 
@@ -85,7 +104,8 @@
 						25,
 						26,
 						27,
-						28
+						28,
+						29
 					]
 				}
 			],
@@ -220,7 +240,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "Library::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Library-Debug-35897c5ce4060661255f.json",
+					"jsonFile" : "target-Library-Debug-777fbf65954f710429ad.json",
 					"name" : "Library",
 					"projectIndex" : 0
 				},
@@ -292,6 +312,13 @@
 					"id" : "NightlyUpdate::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-NightlyUpdate-Debug-b681408b94dc782d2255.json",
 					"name" : "NightlyUpdate",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "lib::@306ed2d68c6501e8728f",
+					"jsonFile" : "target-lib-Debug-f5029c9ecb8141348a5e.json",
+					"name" : "lib",
 					"projectIndex" : 0
 				}
 			]

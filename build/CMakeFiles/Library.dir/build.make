@@ -79,6 +79,7 @@ Library_EXTERNAL_OBJECTS =
 
 Library: CMakeFiles/Library.dir/src/main.cpp.o
 Library: CMakeFiles/Library.dir/build.make
+Library: lib/liblib.a
 Library: CMakeFiles/Library.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kristoffer/Documents/Programmering/Prosjekt/Library/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Library"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Library.dir/link.txt --verbose=$(VERBOSE)

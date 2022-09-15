@@ -20,13 +20,14 @@ int dataInterface::pushData(std::string sAutherSurname,  std::string sTitle)
     biblotek.open("biblotek.txt", std::ios::out|std::ios::app);
 
    
-    //std::vector <std::pair <std::string, std::string>> sVpBuff;
-
     sVpBuff.push_back(std::make_pair(sAutherSurname, sTitle));
 
     if(biblotek.is_open())
     {
-        
+        for(int i = 0; i < sVpBuff.size(); i++)
+        {
+            
+        }
     }
 
     //sorter dataen før den sendet til bake

@@ -1,7 +1,17 @@
 [
 {
   "directory": "/home/kristoffer/Documents/Programmering/Prosjekt/Library/build",
-  "command": "/bin/x86_64-linux-gnu-g++-9    -g   -o CMakeFiles/Library.dir/src/main.cpp.o -c /home/kristoffer/Documents/Programmering/Prosjekt/Library/src/main.cpp",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/kristoffer/Documents/Programmering/Prosjekt/Library/lib  -g   -o CMakeFiles/Library.dir/src/main.cpp.o -c /home/kristoffer/Documents/Programmering/Prosjekt/Library/src/main.cpp",
   "file": "/home/kristoffer/Documents/Programmering/Prosjekt/Library/src/main.cpp"
+},
+{
+  "directory": "/home/kristoffer/Documents/Programmering/Prosjekt/Library/build/lib",
+  "command": "/bin/x86_64-linux-gnu-g++-9    -g   -o CMakeFiles/lib.dir/DataHandling.cpp.o -c /home/kristoffer/Documents/Programmering/Prosjekt/Library/lib/DataHandling.cpp",
+  "file": "/home/kristoffer/Documents/Programmering/Prosjekt/Library/lib/DataHandling.cpp"
+},
+{
+  "directory": "/home/kristoffer/Documents/Programmering/Prosjekt/Library/build/lib",
+  "command": "/bin/x86_64-linux-gnu-g++-9    -g   -o CMakeFiles/lib.dir/SearchAlgo.cpp.o -c /home/kristoffer/Documents/Programmering/Prosjekt/Library/lib/SearchAlgo.cpp",
+  "file": "/home/kristoffer/Documents/Programmering/Prosjekt/Library/lib/SearchAlgo.cpp"
 }
 ]

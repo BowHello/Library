@@ -9,4 +9,14 @@
 /home/kristoffer/Documents/Programmering/Prosjekt/Library/src/main.cpp
 iostream
 -
+algorithm
+-
+fstream
+-
+vector
+-
+utility
+-
+string
+-
 

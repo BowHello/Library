@@ -168,6 +168,9 @@
 		{
 			"isExternal" : true,
 			"path" : "/usr/share/cmake-3.16/Templates/CPackConfig.cmake.in"
+		},
+		{
+			"path" : "lib/CMakeLists.txt"
 		}
 	],
 	"kind" : "cmakeFiles",

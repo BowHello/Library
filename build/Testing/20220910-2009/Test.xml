@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="Linux-x86_64-linux-gnu-g++-9"
+	BuildStamp="20220910-2009-Experimental"
+	Name="kristoffer-All-Series"
+	Generator="ctest-3.16.3"
+	CompilerName="/bin/x86_64-linux-gnu-g++-9"
+	CompilerVersion="9.4.0"
+	OSName="Linux"
+	Hostname="kristoffer-All-Series"
+	OSRelease="5.15.0-46-generic"
+	OSVersion="#49~20.04.1-Ubuntu SMP Thu Aug 4 19:15:44 UTC 2022"
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="60"
+	ProcessorCacheSize="8192"
+	NumberOfLogicalCPU="8"
+	NumberOfPhysicalCPU="4"
+	TotalVirtualMemory="2047"
+	TotalPhysicalMemory="23978"
+	LogicalProcessorsPerPhysical="2"
+	ProcessorClockFrequency="900"
+	>
+	<Testing>
+		<StartDateTime>Sep 10 22:10 CEST</StartDateTime>
+		<StartTestTime>1662840603</StartTestTime>
+		<TestList/>
+		<EndDateTime>Sep 10 22:10 CEST</EndDateTime>
+		<EndTestTime>1662840603</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

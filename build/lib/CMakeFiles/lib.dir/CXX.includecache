@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/kristoffer/Documents/Programmering/Prosjekt/Library/lib/DataHandling.cpp
+string
+-
+algorithm
+-
+iostream
+-
+fstream
+-
+stdio.h
+-
+iterator
+-
+vector
+-
+utility
+-
+DataHandling.hpp
+/home/kristoffer/Documents/Programmering/Prosjekt/Library/lib/DataHandling.hpp
+
+/home/kristoffer/Documents/Programmering/Prosjekt/Library/lib/DataHandling.hpp
+string
+-
+algorithm
+-
+iostream
+-
+vector
+-
+utility
+-
+
