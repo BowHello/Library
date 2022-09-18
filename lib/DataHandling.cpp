@@ -40,32 +40,28 @@ int dataInterface::pushData(std::string sAutherSurname,  std::string sTitle)
 
 int dataInterface::pullData()
 {
- /*
-
-    På presser jeg ut data på "std::cout". Senere vil jeg
-    endre det til "return" slik at jeg ikke får det i
-    terminalen 
-    info om dette ligger på:
-    https://stackoverflow.com/questions/15138785/how-to-read-a-file-into-vector-in-c
-
-    */
-
     std::fstream biblotek;
     biblotek.open("biblotek.txt", std::ios::in);
 
-    std::istream_iterator <std::string> iterator(biblotek), end; // Kopierer .txt filen med å iterere igjennom dataen og kopiere
-
-    std::vector <std::string>  data(iterator, end); // Kopierer dataen inn på vecteren
-
-    std::sort(data.begin(), data.end()); // Sortere dataen etter rekkefølge
-
-// her går det igjennom vekteren og printer den ut på terminalen.
-    for(auto i: data)
+    if(biblotek.is_open())
     {
-        std::cout << i << std::endl;
-    }    
+        std::string sAutherSurname;  
+        std::string sTitle;
 
+        while(true)
+        {
+            biblotek >> sAutherSurname >> sTitle;
+            sVpBuff.push_back(std::make_pair(sAutherSurname, sTitle));
+        }
+    }
     biblotek.close();
+
+    std::sort(sVpBuff.begin(), sVpBuff.end());
+
+    for(int k = 0;k < sVpBuff.size();k++)
+    {
+        std::cout << sVpBuff[k].first << sVpBuff[k].second << std::endl;
+    }
 
     return 0;
 
