@@ -15,6 +15,8 @@
 
 int dataInterface::pushData(std::string sAutherSurname,  std::string sTitle)
 {
+    // Function push data out to data storage
+    
 
     std::fstream biblotek;
     biblotek.open("biblotek.txt", std::ios::out|std::ios::app);
@@ -22,15 +24,34 @@ int dataInterface::pushData(std::string sAutherSurname,  std::string sTitle)
    
     sVpBuff.push_back(std::make_pair(sAutherSurname, sTitle));
 
+
+    std::string sSortBuffAut;
+    std::string sSortBuffTit;
+    bool bLoopJump = true;
+
+
     if(biblotek.is_open())
     {
+        
+        while(bLoopJump)
+        {
+            biblotek >> sSortBuffAut >> sSortBuffTit;
+            sVpBuff.push_back(std::make_pair(sSortBuffAut, sSortBuffTit));
+            if(biblotek.eof()){bLoopJump = false;
+                                std::cout << "done with cooping data storage" << std::endl;};
+        }
+        
+        std::sort(sVpBuff.begin(), sVpBuff.end());
+
         for(int i = 0; i < sVpBuff.size(); i++)
         {
-            
+            std::transform(sVpBuff[i].first.begin(), sVpBuff[i].first.end(), sVpBuff[i].first.begin(), ::tolower);
+            std::transform(sVpBuff[i].second.begin(), sVpBuff[i].second.end(), sVpBuff[i].second.begin(), ::tolower);
+            biblotek << sVpBuff[i].first << sVpBuff[i].second << std::endl;
         }
-    }
 
-    //sorter dataen før den sendet til bake
+        std::cout << "done with pushing data to sotorage" << std::endl;
+    }
 
          
     biblotek.close();

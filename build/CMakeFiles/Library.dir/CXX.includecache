@@ -6,6 +6,18 @@
 
 #IncludeRegexTransform: 
 
+../lib/DataHandling.hpp
+string
+-
+algorithm
+-
+iostream
+-
+vector
+-
+utility
+-
+
 /home/kristoffer/Documents/Programmering/Prosjekt/Library/src/main.cpp
 iostream
 -
@@ -19,4 +31,6 @@ utility
 -
 string
 -
+DataHandling.hpp
+/home/kristoffer/Documents/Programmering/Prosjekt/Library/src/DataHandling.hpp
 
